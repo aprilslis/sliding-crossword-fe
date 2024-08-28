@@ -7,19 +7,19 @@ const config: Config = {
         "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
     ],
     theme: {
-        colors: {
-            "brown-1": "#5B4E45",
-            "brown-2": "#AE998B",
-            "brown-3": "#DCBAA1",
-            "brown-4": "#E3D1C5",
-            "primary-background": "#F9F7EE",
-            "secondary-background": "#FFFFFF",
-        },
         fontFamily: {
             jua: ["Jua", "sans-serif"],
             itim: ["Itim", "sans-serif"],
         },
         extend: {
+            colors: {
+                "brown-1": "#5B4E45",
+                "brown-2": "#AE998B",
+                "brown-3": "#DCBAA1",
+                "brown-4": "#E3D1C5",
+                "primary-background": "#F9F7EE",
+                "secondary-background": "#FFFFFF",
+            },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic":

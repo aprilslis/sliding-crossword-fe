@@ -1,4 +1,3 @@
-import { DisplayGrid } from "./components/home/DisplayGrid";
 import { Menu } from "./components/home/Menu";
 import { StartGame } from "./components/home/StartGame";
 

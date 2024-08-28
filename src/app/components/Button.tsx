@@ -9,7 +9,7 @@ export const Button = ({ onClick, children }: ButtonProps) => {
     return (
         <button
             onClick={onClick}
-            className="flex items-center justify-center mt-2 bg-secondary-background p-2 text-xl rounded-lg border-2 w-44 h-9"
+            className="flex items-center justify-center mt-2 bg-secondary-background p-2 text-xl rounded-lg border-2 w-44 h-9 border-brown-1"
         >
             {children}
         </button>
