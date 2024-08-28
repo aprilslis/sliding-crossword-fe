@@ -2,17 +2,19 @@
     position: absolute;
     z-index: 3;
     transform: rotate(-21.13deg);
-    // margin: 10% 5% 0 0;
+    margin: 330px 0 0 -200px;
 }
 
 .middle-grid {
     position: absolute;
     z-index: 2;
     transform: rotate(-6.72deg);
+    margin: 170px 0 0 0;
 }
 
 .back-grid {
     position: absolute;
     z-index: 1;
     transform: rotate(8.16deg);
+    margin: 80px 0 0 300px;
 }

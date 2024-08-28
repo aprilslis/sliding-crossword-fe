@@ -23,6 +23,7 @@ body {
     font-family: "Itim", sans-serif;
     color: #5b4e45;
     background: #f9f7ee;
+    overflow: hidden;
 }
 
 @layer utilities {
